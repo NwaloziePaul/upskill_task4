@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(196, 193, 193);
+}
+.card{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px;
+    width: 35%;
+    margin: auto;
+}
+img{
+    height: 225px;
+    width: 250px;
+    border-radius: 50%;
+}
+.name{
+    margin: 1rem 0rem;
+    font-size: 30px;
+    font-weight: bold
+}
+.job_title{
+    margin: 1rem 0rem;
+    color: rgb(119, 117, 117);
+    font-size: 18px;
+    font-weight: bold;
+}
+.description{
+    text-align: left;
+    margin-top: 2rem;
+    color: rgb(83, 80, 80);
+    font-size: 18px;
+    line-height: 1.55rem;
+}
